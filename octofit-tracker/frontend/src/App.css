@@ -1,0 +1,139 @@
+/* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%);
+  margin: 0;
+  padding: 0;
+  color: #22223b;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Navigation styles */
+nav.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #00bcd4 100%);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.08);
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+}
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffeb3b !important;
+  text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #1976d2;
+  font-weight: 700;
+}
+
+/* Table styles */
+table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  overflow: hidden;
+}
+table th {
+  background: #1976d2;
+  color: #fff;
+  font-size: 1.1rem;
+}
+table tr:nth-child(even) {
+  background: #e3f2fd;
+}
+table tr:hover {
+  background: #b2ebf2;
+}
+
+/* Button styles */
+.btn-primary, .btn-info, .btn-success, .btn-warning, .btn-secondary {
+  border-radius: 20px;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  transition: background 0.2s;
+}
+.btn-primary {
+  background: linear-gradient(90deg, #1976d2 0%, #00bcd4 100%);
+  border: none;
+}
+.btn-primary:hover {
+  background: #1565c0;
+}
+.btn-info {
+  background: linear-gradient(90deg, #00bcd4 0%, #4dd0e1 100%);
+  border: none;
+}
+.btn-info:hover {
+  background: #0097a7;
+}
+.btn-success {
+  background: linear-gradient(90deg, #43a047 0%, #66bb6a 100%);
+  border: none;
+}
+.btn-success:hover {
+  background: #388e3c;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #ffb300 0%, #ffe082 100%);
+  border: none;
+  color: #333;
+}
+.btn-warning:hover {
+  background: #ffa000;
+}
+.btn-secondary {
+  background: #6c757d;
+  border: none;
+}
+.btn-secondary:hover {
+  background: #495057;
+}
+
+/* Card styles */
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  margin-bottom: 2rem;
+}
+.card-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Link styles */
+a {
+  color: #1976d2;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #00bcd4;
+  text-decoration: underline;
+}
+
+/* Favicon styles (for reference, actual favicon is set in public/index.html) */
+
+/* Logo styles */
+.octofit-logo {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
